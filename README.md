@@ -6,7 +6,7 @@ This program is just a demo. DO NOT USE IT FOR PERSONAL purpose
 
 ## Compile
 ```
-g++ iptv.cpp -o iptv_extreme -lcurl
+g++ iptv.cpp -o iptv_extreme -lcurl -lpthread
 ```
 
 ## Usage
@@ -14,6 +14,10 @@ g++ iptv.cpp -o iptv_extreme -lcurl
 ./iptv_extreme
 ```
 Then just insert the server url, easy ye?
+
+## Crawling
+WIP<br>
+Use [IPTV](https://github.com/Pirate-Crew/IPTV) option 1 then paste server address in iptv_extreme
 
 ## Credits
 This version was coded by: [@Arm4x](https://twitter.com/Arm4x)<br><br>
